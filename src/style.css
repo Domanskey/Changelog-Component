@@ -167,6 +167,12 @@ a:hover {
     left: calc(33.33% - 3px);
   }
 
+  .item-description--date {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+  }
+
   .list__item--date {
     grid-column-start: 1;
   }
