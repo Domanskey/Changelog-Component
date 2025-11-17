@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Full Changelog</title>
 
-  <!-- SEO Meta Tags -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Changelog</title>
+
+    <!-- SEO Meta Tags -->
     <meta name="description" content="Changelog Component for showcasing updates and changes." />
     <meta name="keywords" content="Changelog, Updates, Changes" />
     <meta name="author" content="Adam Domański" />
@@ -13,70 +14,94 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Changelog Component" />
     <meta property="og:description" content="Changelog Component for showcasing updates and changes." />
-    <meta property="og:image" content="public/open_graph_image.png"/>
+    <meta property="og:image" content="public/open_graph_image.png" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://doman.ski" />
 
     <!-- Favicon -->
-    <link rel="icon" href="public/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
 </head>
+
 <body class="body">
-  
-  <header>
-    <h1 class="title">Full Changelog</h1>
-  </header>
 
-  <section class="changelog">
-    <h2 class="changelog__title">Here's everything we have shipped in the past few months</h2>
-    <ul class="changelog__list">
-      <li class="list__item">
-          <time datetime="2024-09-03" class="item-description item-description--date">September 3, 2024</time>
-          <p class="item-description">Announcing Projects on Frontend Roadmap</p>
-      </li>
-      <li class="list__item ">
-          <time datetime="2024-08-28" class="item-description item-description--date">August 28, 2024</time>
-          <p class="item-description">Build your learning habits with learning streaks</p>
-      </li>
-      <li class="list__item ">
-          <time datetime="2024-08-25" class="item-description item-description--date">August 25, 2024</time>
-          <p class="item-description">Git and Github Roadmap</p>
-      </li>
-      <li class="list__item ">
-          <time datetime="2024-08-22" class="item-description item-description--date">August 22, 2024</time>
-          <p class="item-description">Submit your project solution and get feedback</p>
-      </li>
-      <li class="list__item ">
-          <time datetime="2024-08-15" class="item-description item-description--date">August 15, 2024</time>
-          <p class="item-description">Backend Project Ideas</p>
-      </li>
-      <li class="list__item ">
-          <time datetime="2024-08-10" class="item-description item-description--date">August 10, 2024</time>
-          <p class="item-description">Redis Roadmap</p>
-      </li>
-      <li class="list__item ">
-          <time datetime="2024-08-01" class="item-description item-description--date">August 1, 2024</time>
-          <p class="item-description">Changelog page to help you stay in the loop</p>
-      </li>
-      <li class="list__item ">
-          <time datetime="2024-07-25" class="item-description item-description--date">July 25, 2024</time>
-          <p class="item-description">Social media integration</p>
-      </li>
-      <li class="list__item ">
-          <time datetime="2024-07-14" class="item-description item-description--date">July 14, 2024</time>
-          <p class="item-description">New Documentation System</p>
-      </li>
-      <li class="list__item ">
-          <time datetime="2024-06-12" class="item-description item-description--date">June 12, 2024</time>
-          <p class="item-description">Website lifting</p>
-      </li>
-      <li class="list__item ">
-          <time datetime="2024-05-28" class="item-description item-description--date">May 28, 2024</time>
-          <p class="item-description">New Marketing Slogan</p>
-      </li>
+    <header>
+        <h1 class="title">Full Changelog</h1>
+    </header>
 
-    </ul>
-  </section>
+    <section class="changelog">
+        <h2 class="changelog__title">Here's everything we have shipped in the past few months</h2>
+        <ul class="changelog__list">
+            <li class="list__item">
+                <div class="time-wrapper">
+                    <time datetime="2024-09-03" class="item-description item-description--date">September 3, 2024</time>
+                </div>
+                <p class="item-description">Announcing Projects on Frontend Roadmap</p>
+            </li>
+            <li class="list__item ">
+                <div class="time-wrapper">
+                <time datetime="2024-08-28" class="item-description item-description--date">August 28, 2024</time>
+                </div>
+                <p class="item-description">Build your learning habits with learning streaks</p>
+            </li>
+            <li class="list__item ">
+                <div class="time-wrapper">
+                <time datetime="2024-08-25" class="item-description item-description--date">August 25, 2024</time>
+                </div>
+                <p class="item-description">Git and Github Roadmap</p>
+            </li>
+            <li class="list__item ">
+                <div class="time-wrapper">
+                <time datetime="2024-08-22" class="item-description item-description--date">August 22, 2024</time>
+                </div>
+                <p class="item-description">Submit your project solution and get feedback</p>
+            </li>
+            <li class="list__item ">
+                <div class="time-wrapper">
+                <time datetime="2024-08-15" class="item-description item-description--date">August 15, 2024</time>
+                </div>
+                <p class="item-description">Backend Project Ideas</p>
+            </li>
+            <li class="list__item ">
+                <div class="time-wrapper">
+                <time datetime="2024-08-10" class="item-description item-description--date">August 10, 2024</time>
+                </div>
+                <p class="item-description">Redis Roadmap</p>
+            </li>
+            <li class="list__item ">
+                <div class="time-wrapper">
+                <time datetime="2024-08-01" class="item-description item-description--date">August 1, 2024</time>
+                </div>
+                <p class="item-description">Changelog page to help you stay in the loop</p>
+            </li>
+            <li class="list__item ">
+                <div class="time-wrapper">
+                <time datetime="2024-07-25" class="item-description item-description--date">July 25, 2024</time>
+                </div>
+                <p class="item-description">Social media integration</p>
+            </li>
+            <li class="list__item ">
+                <div class="time-wrapper">
+                <time datetime="2024-07-14" class="item-description item-description--date">July 14, 2024</time>
+                </div>
+                <p class="item-description">New Documentation System</p>
+            </li>
+            <li class="list__item ">
+                <div class="time-wrapper">
+                <time datetime="2024-06-12" class="item-description item-description--date">June 12, 2024</time>
+                </div>
+                <p class="item-description">Website lifting</p>
+            </li>
+            <li class="list__item ">
+                <div class="time-wrapper">
+                <time datetime="2024-05-28" class="item-description item-description--date">May 28, 2024</time>
+                </div>
+                <p class="item-description">New Marketing Slogan</p>
+            </li>
 
-  <script type="module" src="/src/fullchangelog.js"></script>
+        </ul>
+    </section>
+
+    <script type="module" src="/src/fullchangelog.js"></script>
 </body>
+
 </html>

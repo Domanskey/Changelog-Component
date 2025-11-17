@@ -90,6 +90,7 @@
   visibility: hidden;
   opacity: 0;
   will-change: opacity, visibility;
+  transform: translate3d(200px, 0, 0);
 }
 
 .item-description--date {
@@ -113,10 +114,6 @@
   left: 17px;
   margin-top: 17px;
   transform: none;
-}
-
-.item-description{
-  transform: translate3d(200px, 0, 0);
 }
 
 .title {
